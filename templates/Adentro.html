@@ -1,0 +1,14 @@
+{% extends "Inicio.html" %}
+<br> {% block content %}
+<h3>
+    <div class="alert alert-success" role="alert">
+        <ul class="list-group">
+            <li class="list-group-item disabled">{{info["nombre"]}}</li>
+            <li class="list-group-item">{{info["usuario"]}}</li>
+            <li class="list-group-item">{{info["clave"]}}</li>
+            <li class="list-group-item">******</li>
+
+        </ul>
+    </div>
+</h3>
+{% endblock content %}
